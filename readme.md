@@ -6,6 +6,7 @@ npm add dom-filesystem
 yarn add dom-filesystem
 
 ## Using
+```javascript
 let fs = require("dom-filesystem")(document)
 
 function async main() {
@@ -13,3 +14,4 @@ function async main() {
   let result = fs.readFileSync("/hello-world.txt")
   console.log( result )
 }
+```
